@@ -56,92 +56,60 @@ This dataset and analysis code are provided for academic, non-commercial use. Pl
 
 ---
 
-## Appendix: Survey Variable Table (LaTeX Format)
+## Appendix: Survey Variable Table
 
-```latex
+### Survey 1: Evaluation of Arab and African Migration
 
-\begin{table}[H]
-\centering
-\begin{adjustwidth}{-\extralength}{0cm}
-\caption{Guide to Variables Used in Surveys, Grouped by Question.\label{tab:variables_guide}}
-\footnotesize
-\begin{tabular}{p{4.7cm} p{2.5cm} p{7cm} p{8cm}}   
-    \toprule
-    \textbf{Question} & \textbf{Variable} & \textbf{Description} & \textbf{Scale / Observation} \\ 
-    \midrule
-    \multicolumn{3}{c}{\textbf{Survey 1: Evaluation of Arab and African Migration}} \\ 
-    \midrule
-    -- & ID & Unique identifier for each participant. & Categorical \\ 
-    -- & Edad & Age group (1: 18–22, 2: 23–27, 3: 28–31, 4: 32+). & Ordinal \\
-    -- & Sexo & Gender (1: Male, 2: Female). & Binary \\
-    -- & Nacionalidad & Nationality (1: Spanish, 2: Spanish and other, 3: Other). & Categorical \\
-    P1. General evaluation & (P1) & Overall perception of Arab and African migration. & Likert 1–7 \\
-    P2. Respond to the following statements: & A1 & Immigrants take jobs Spaniards don’t want. & Likert 1–7 \\
-    & A2 & Immigrants are still needed in Spain. & Likert 1–7 \\
-    & A3 & Immigration may increase crime. & Likert 1–7 \\
-    & A4 & Society cannot function without immigrants. & Likert 1–7 \\
-    & A5 & Immigration is linked to insecurity. & Likert 1–7 \\
-    & A6 & Immigration can benefit the economy. & Likert 1–7 \\
-    & A7 & Immigrants cause problems. & Likert 1–7 \\
-    & A8 & Immigrants contribute to national development. & Likert 1–7 \\
-    P3. What emotions do immigrants provoke in you? & E1 & Interest. & Likert 1–7 \\
-    & E2 & Joy. & Likert 1–7 \\
-    & E3 & Surprise. & Likert 1–7 \\
-    & E4 & Sadness. & Likert 1–7 \\
-    & E5 & Anger. & Likert 1–7 \\
-    & E6 & Disgust. & Likert 1–7 \\
-    & E7 & Contempt. & Likert 1–7 \\
-    P4. Imagine the following scenarios: & (P4.1) & Living near many Arab or African immigrants. & Likert 1–7 \\
-    & (P4.2) & Working/studying with Arab or African immigrants. & Likert 1–7 \\
-    P5. Attacks by immigrants & (P5) & Concern about immigrant attacks on Spaniards. & Likert 1–7 \\
-    P6. Attacks by Spaniards & (P6) & Concern about Spaniard attacks on immigrants. & Likert 1–7 \\
-    P7. Sources of opinion & CA & Friends. & Binary (1 = selected) \\
-    & CF & Family. & Binary (1 = selected) \\
-    & TV & Television. & Binary (1 = selected) \\
-    & PR & Radio. & Binary (1 = selected) \\
-    & R & Press or magazines. & Binary (1 = selected) \\
-    & I & Internet. & Binary (1 = selected) \\
-    & CT & School or workplace. & Binary (1 = selected) \\
-    & Otro & Other source. & Binary (1 = selected) \\
-    & NR & No response. & Binary (1 = selected) \\
-    & NC & Don’t know. & Binary (1 = selected) \\
-    P8. Media attention & TV.1 & TV attention to migration. & Likert 1–7 \\
-    & PD & Digital press attention. & Likert 1–7 \\
-    & RS & Social media attention. & Likert 1–7 \\
-    P9. Media portrayal & TV.2 & TV image of immigrants. & Likert 1–7 \\
-    & PD.1 & Digital press image. & Likert 1–7 \\
-    & RS.1 & Social media image. & Likert 1–7 \\
-    P10. Time spent on media & (P10) & Time spent on media. & Likert 1–7 \\
-    P11. Political orientation & I.1 & Left-wing. & Binary (1 = selected) \\
-    & C.1 & Center. & Binary (1 = selected) \\
-    & D & Right-wing. & Binary (1 = selected) \\
-    P12. Voting & (P12) & Political party voted for in the last election. & Open-ended \\
-    \midrule
-    \multicolumn{3}{c}{\textbf{Survey 2: Reaction to Migration News}} \\ 
-    \midrule
-    -- & ID & Unique identifier for each participant. & Categorical \\
-    P1. What emotions did the news provoke in you? & Em1 & Fear. & Likert 1–7 \\
-    & Em2 & Admiration. & Likert 1–7 \\
-    & Em3 & Distrust. & Likert 1–7 \\
-    & Em4 & Insecurity. & Likert 1–7 \\
-    & Em5 & Sympathy. & Likert 1–7 \\
-    & Em6 & Discomfort. & Likert 1–7 \\
-    & Em7 & Indifference. & Likert 1–7 \\
-    & Em8 & Shame. & Likert 1–7 \\
-    & Em9 & Contempt. & Likert 1–7 \\
-    & Em10 & Guilt. & Likert 1–7 \\
-    P2. Rate your interest in the news & INTERÉS NOTICIA & Overall interest. & Likert 1–7 \\
-    P3. How did you perceive the news? & C & Confusing. & Likert 1–7 \\
-    & LD & Difficult to read. & Likert 1–7 \\
-    & S & Superficial. & Likert 1–7 \\
-    & S.1 & Biased. & Likert 1–7 \\
-    & MS & Too simple. & Likert 1–7 \\
-    & D & Decontextualized. & Likert 1–7 \\
-    & I & Imprecise. & Likert 1–7 \\
-    & A & Boring. & Likert 1–7 \\
-    \bottomrule
-\end{tabular}
-\end{adjustwidth}
-\end{table}
+| Question | Variable | Description | Scale / Observation |
+|---------|----------|-------------|----------------------|
+| – | ID | Unique identifier for each participant | Categorical |
+| – | Edad | Age group (1: 18–22, 2: 23–27, 3: 28–31, 4: 32+) | Ordinal |
+| – | Sexo | Gender (1: Male, 2: Female) | Binary |
+| – | Nacionalidad | Nationality (1: Spanish, 2: Spanish and other, 3: Other) | Categorical |
+| P1. General evaluation | (P1) | Overall perception of Arab and African migration | Likert 1–7 |
+| P2. Respond to the following statements: | A1–A8 | A1: Immigrants take jobs Spaniards don’t want  
+A2: Immigrants are still needed in Spain  
+A3: Immigration may increase crime  
+A4: Society cannot function without immigrants  
+A5: Immigration is linked to insecurity  
+A6: Immigration can benefit the economy  
+A7: Immigrants cause problems  
+A8: Immigrants contribute to national development | Likert 1–7 |
+| P3. What emotions do immigrants provoke in you? | E1–E7 | E1: Interest  
+E2: Joy  
+E3: Surprise  
+E4: Sadness  
+E5: Anger  
+E6: Disgust  
+E7: Contempt | Likert 1–7 |
+| P4. Imagine the following scenarios: | P4.1, P4.2 | P4.1: Living near many Arab or African immigrants  
+P4.2: Working/studying with Arab or African immigrants | Likert 1–7 |
+| P5. Attacks by immigrants | (P5) | Concern about immigrant attacks on Spaniards | Likert 1–7 |
+| P6. Attacks by Spaniards | (P6) | Concern about Spaniard attacks on immigrants | Likert 1–7 |
+| P7. Sources of opinion | CA, CF, TV, PR, R, I, CT, Otro, NR, NC | Friends, Family, TV, Radio, Press, Internet, School/Work, Other, No response, Don’t know | Binary (1 = selected) |
+| P8. Media attention | TV.1, PD, RS | Attention from TV, Digital Press, Social Media | Likert 1–7 |
+| P9. Media portrayal | TV.2, PD.1, RS.1 | Image on TV, Digital Press, Social Media | Likert 1–7 |
+| P10. Time spent on media | (P10) | Time spent on media | Likert 1–7 |
+| P11. Political orientation | I.1, C.1, D | Left, Center, Right | Binary (1 = selected) |
+| P12. Voting | (P12) | Political party voted for in the last election | Open-ended |
 
-```
+### Survey 2: Reaction to Migration News
+
+| Question | Variable | Description | Scale / Observation |
+|----------|----------|-------------|----------------------|
+| – | ID | Unique identifier for each participant | Categorical |
+| P1. What emotions did the news provoke in you? | Em1–Em10 | Em1: Fear  
+Em2: Admiration  
+Em3: Distrust  
+Em4: Insecurity  
+Em5: Sympathy  
+Em6: Discomfort  
+Em7: Indifference  
+Em8: Shame  
+Em9: Contempt  
+Em10: Guilt | Likert 1–7 |
+| P2. Rate your interest in the news | INTERÉS NOTICIA | Overall interest | Likert 1–7 |
+| P3. How did you perceive the news? | C, LD, S, S.1, MS, D, I, A | Confusing, Difficult, Superficial, Biased, Too simple, Decontextualized, Imprecise, Boring | Likert 1–7 |
+| Final question | (P1) | Opinion on immigration after reading the news | Likert 1–7 |
+| – | Condition | News framing condition shown to participant | Categorical (experimental group) |
+
